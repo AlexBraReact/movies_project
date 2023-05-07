@@ -19,6 +19,7 @@ class Main extends React.Component {
       )
       .catch((err)=>{
         console.error(err);
+        this.setState({ loading: false })
       })
   }
 
@@ -32,7 +33,11 @@ class Main extends React.Component {
         .then((response) => response.json())
         .then((data) =>
           this.setState({ movies: data.Search, loading: false })
-        );
+        )      
+        .catch((err)=>{
+          console.error(err);
+          this.setState({ loading: false })
+        });
     });
   };
 

@@ -1,3 +1,26 @@
+
+Что за проект
+из чего состоит
+какие АПИ использует
+
+развитие:
+поменять внешний вид
+выводить сколько всего найдено
+подгрузка следующих страниц
+
+можно сделать все тоже самое с другим общедоступным АПИ
+
+подобрал себе - музей с картинами https://data.rijksmuseum.nl/object-metadata/api/#collection-api
+например https://lh3.googleusercontent.com/J-mxAE7CPu-DXIOx4QKBtb0GC4ud37da1QK7CzbTIDswmvZHXhLm4Tv2-1H3iBXJWAW_bHm7dMl3j5wv_XiWAg55VOM=s0
+https://www.rijksmuseum.nl/ru/visit
+
+и другие:
+https://github.com/public-apis/public-apis#index
+понравились:
+https://www.flickr.com/services/api/
+https://fakerapi.it/en
+https://dictionaryapi.dev слова с озвучиванием
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
